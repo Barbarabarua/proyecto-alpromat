@@ -1,0 +1,27 @@
+footer {
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+  }
+  
+  .grid-container div ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .grid-item a {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+  }
+  
+  .social-button {
+    align-items: center;
+  }
